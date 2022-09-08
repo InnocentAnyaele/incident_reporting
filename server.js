@@ -12,7 +12,7 @@ client.connect(function(err) {
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('This is an incident reporting service')
+    res.send("<p>This is an incident reporting service</p> <p> <b> '/api/getAllIncidents/' </b>to view all incidents. </p> <p> <b> '/api/postIncident/' </b> to post incident. (body -> client_id, incident_desc, city, country) </p>")
 })
 
 app.post('/api/postIncident/', controller.postIncident)
