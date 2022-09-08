@@ -1,0 +1,17 @@
+{
+  "name": "incident_reporting",
+  "version": "1.0.0",
+  "description": "an incident reporting service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "request": "^2.88.2"
+  }
+}
